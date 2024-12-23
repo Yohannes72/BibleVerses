@@ -99,7 +99,7 @@ function Nav() {
                                     className="dropdown_link"
                                     onClick={() => setToggleDropdown(false)}
                                 >
-                                    Create Prompt
+                                    Create Verses
                                 </Link>
                                 <button
                                     className="mt-5 w-full black_btn"
