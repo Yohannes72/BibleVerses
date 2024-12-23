@@ -4,6 +4,7 @@ import { useEffect, useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Form from "@component/Form";
 
+// Ensure the component uses Suspense only where needed
 const UpdatePrompt = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
